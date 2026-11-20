@@ -6,6 +6,8 @@ The **DMO Segment Sync** framework is a set of Apex classes which periodically k
 the list of **Data360** segments of a data space aligned with the values of a field in a
 **Data360** Data Model Object (DMO).
 
+It is part of the **[PEG_MCN](https://github.com/pegros/PEG_MCN) package./**
+
 A typical use case is a DMO containing segment assignments computed outside of **Data360**
 (e.g. by a scoring tool or an external system), where each record carries the name of the
 segment its individual belongs to. Whenever a new segment name value appears in the DMO,
