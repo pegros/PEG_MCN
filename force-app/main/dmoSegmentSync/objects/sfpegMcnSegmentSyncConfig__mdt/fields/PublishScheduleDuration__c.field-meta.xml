@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PublishScheduleDuration__c</fullName>
+    <description>Duration (in days) of the publish schedule of the created segments, starting at the next full hour (default 365). Only used when a Publish Schedule is set.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Duration (in days) of the publish schedule of the created segments, starting at the next full hour (default 365). Only used when a Publish Schedule is set.</inlineHelpText>
+    <label>Publish Schedule Duration (days)</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

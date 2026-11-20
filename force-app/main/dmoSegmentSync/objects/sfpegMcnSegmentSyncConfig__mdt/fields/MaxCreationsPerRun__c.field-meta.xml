@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MaxCreationsPerRun__c</fullName>
+    <description>Maximum number of segments created per run (default 50); remaining ones are created on next runs.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Maximum number of segments created per run (default 50); remaining ones are created on next runs.</inlineHelpText>
+    <label>Max Creations Per Run</label>
+    <precision>4</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

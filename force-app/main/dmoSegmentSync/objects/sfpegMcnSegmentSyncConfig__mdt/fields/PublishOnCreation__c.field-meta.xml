@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PublishOnCreation__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>When checked, the created segments are published (ad hoc) as soon as they become active, in addition to their optional publish schedule.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>When checked, the created segments are published (ad hoc) as soon as they become active, in addition to their optional publish schedule.</inlineHelpText>
+    <label>Publish On Creation</label>
+    <type>Checkbox</type>
+</CustomField>

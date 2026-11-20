@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <classAccesses>
+        <apexClass>sfpegMcnDmoSegmentSync_QUE</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sfpegMcnDmoSegmentSync_SCH</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sfpegMcnDmoSegmentSync_SVC</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <customMetadataTypeAccesses>
+        <enabled>true</enabled>
+        <name>sfpegMcnSegmentSyncConfig__mdt</name>
+    </customMetadataTypeAccesses>
+    <description>PermissionSet granting access to all the metadata required to run the sfpegMcnDmoSegmentSync feature (PEG_MCN package)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SFPEG MCO DMO Segment Sync Usage</label>
+</PermissionSet>

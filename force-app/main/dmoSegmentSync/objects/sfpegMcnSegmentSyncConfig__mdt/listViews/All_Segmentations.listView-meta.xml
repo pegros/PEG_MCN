@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Segmentations</fullName>
+    <columns>MasterLabel</columns>
+    <columns>DataSpace__c</columns>
+    <columns>SegmentOnApiName__c</columns>
+    <columns>SegmentDescription__c</columns>
+    <columns>PublishSchedule__c</columns>
+    <columns>SourceDmo__c</columns>
+    <columns>SegmentNameField__c</columns>
+    <columns>IsActive__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All Segmentations</label>
+    <language>en_US</language>
+</ListView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SegmentNameTemplate__c</fullName>
+    <description>Optional template of the display name of the created segments, which must contain the {segmentValue} placeholder (e.g. EMEA - {segmentValue}). Left empty = the segment value itself. Existing segments are matched on the resulting name.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Optional template of the display name of the created segments, which must contain the {segmentValue} placeholder (e.g. EMEA - {segmentValue}). Left empty = the segment value itself. Existing segments are matched on the resulting name.</inlineHelpText>
+    <label>Segment Name Template</label>
+    <length>255</length>
+    <required>false</required>
+    <unique>false</unique>
+    <type>Text</type>
+</CustomField>

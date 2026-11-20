@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>EMEA Segments</label>
+    <protected>false</protected>
+    <values>
+        <field>DataSpace__c</field>
+        <value xsi:type="xsd:string">Test_PEG</value>
+    </values>
+    <values>
+        <field>IsActive__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>MaxCreationsPerRun__c</field>
+        <value xsi:type="xsd:double">2.0</value>
+    </values>
+    <values>
+        <field>PublishOnCreation__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>PublishScheduleDuration__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>PublishSchedule__c</field>
+        <value xsi:type="xsd:string">Twelve</value>
+    </values>
+    <values>
+        <field>SegmentDescription__c</field>
+        <value xsi:type="xsd:string">EMEA Individuals from {segmentValue} Tealium segment</value>
+    </values>
+    <values>
+        <field>SegmentNameField__c</field>
+        <value xsi:type="xsd:string">Name__c</value>
+    </values>
+    <values>
+        <field>SegmentNameTemplate__c</field>
+        <value xsi:type="xsd:string">EMEA Individuals for {segmentValue} Tealium segment</value>
+    </values>
+    <values>
+        <field>SegmentOnApiName__c</field>
+        <value xsi:type="xsd:string">PEG_Individual__dlm</value>
+    </values>
+    <values>
+        <field>SegmentSqlTemplate__c</field>
+        <value xsi:type="xsd:string">SELECT {segmentOn}.Id__c, {segmentOn}.KQ_Id__c
+FROM {segmentOn}
+JOIN {sourceDmo} ON {sourceDmo}.ContactId_c__c = {segmentOn}.Id__c
+WHERE {sourceDmo}.{segmentField} = &apos;{segmentValue}&apos;</value>
+    </values>
+    <values>
+        <field>SourceDmo__c</field>
+        <value xsi:type="xsd:string">PEG_Tealium_Segment__dlm</value>
+    </values>
+</CustomMetadata>
